@@ -1,0 +1,12 @@
+@import "../node_modules/reset-css/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+.Main {
+	padding: 30px;
+	height: 100vh;
+	background: linear-gradient(139.99deg, #FFC9E6 -4.87%, #FFF2F9 86.09%);
+}

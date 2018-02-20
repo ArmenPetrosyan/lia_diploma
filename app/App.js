@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
+import Login from "./components/Login";
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import "./App.scss";
 
 class App extends Component {
   render() {
     return (
-      <h1>Hey yo! Arnie</h1>
+      <MuiThemeProvider>
+        <main className="Main">
+          <Login />
+        </main>
+      </MuiThemeProvider>
     )
   }
 }

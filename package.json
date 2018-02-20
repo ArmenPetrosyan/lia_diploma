@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/ArmenPetrosyan/lia_diploma#readme",
   "dependencies": {
+    "material-ui": "^0.20.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "reset-css": "^2.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
   }
 }
